@@ -115,13 +115,6 @@ model = dict(
             score_thr=0.05,
             nms=dict(type='nms', iou_threshold=0.5),
             max_per_img=100),
-        # rcnn=dict(
-        #     score_thr=0.05,
-        #     nms=dict(type='nms', iou_threshold=0.9),
-        #     max_per_img=1000)
-
-        # soft-nms is also supported for rcnn testing
-        # e.g., nms=dict(type='soft_nms', iou_threshold=0.5, min_score=0.05)
     ))
 
 
@@ -157,8 +150,8 @@ test_pipeline = [
 ]
 # classes = ( 'car',)
 data = dict(
-    samples_per_gpu=2,
-    workers_per_gpu=2,
+    samples_per_gpu=8,
+    workers_per_gpu=8,
     train=dict(
         type=dataset_type,
         # classes = classes,
