@@ -9,7 +9,6 @@ custom_imports = dict(
 
     imports=['DmRF_Modulesxiao_n'],
     allow_failed_imports=False)
-
 model = dict(
     type='FasterRCNN',
     backbone=dict(
