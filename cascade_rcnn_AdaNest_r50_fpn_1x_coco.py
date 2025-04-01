@@ -1,5 +1,5 @@
 
-mmdetDir= '/home/huangxc/mmdetection'
+mmdetDir = '/home/xxx/mmdetection'  # Change this to your mmdetection directory
 
 basedir  = [
     '/_base_/datasets/coco_detection.py',
