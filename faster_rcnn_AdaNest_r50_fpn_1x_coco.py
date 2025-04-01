@@ -7,7 +7,7 @@ basedir = [
 _base_ = [mmdetDir +'/configs'+ dir_i for dir_i in basedir]
 custom_imports = dict(
 
-    imports=['DmRF_Modulesxiao'],
+    imports=['DmRF_Modulesxiao_n'],
     allow_failed_imports=False)
 
 model = dict(
