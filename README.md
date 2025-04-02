@@ -56,15 +56,24 @@ English
 </div>
 ## Introduction
 
+# AdaNest
+
+**AdaNest** is a project developed based on [MMDetection v2.28.2](https://github.com/open-mmlab/mmdetection/tree/v2.28.2), extending its functionalities for object detection.
+
+
 MMDetection is an open source object detection toolbox based on PyTorch. It is
 a part of the [OpenMMLab](https://openmmlab.com/) project.
 
-The master branch works with **PyTorch 1.5+**.
 
 
 ## Installation
 
 Please refer to [Installation](docs/en/get_started.md/#Installation) for installation instructions.
+
+#### Dependencies
+- MMDetection 2.28.2
+- PyTorch >= 1.6
+- MMCV >= 1.5.0
 
 ## Getting Started
 
