@@ -1,4 +1,4 @@
-﻿
+﻿# Copyright 2025 AdaNest.
 import numpy as np
 import torch
 from mmcv.runner import force_fp32
@@ -235,6 +235,7 @@ class AdaNestRoIHead_Multi_stage(CascadeRoIHead):
 
 
     def init_bbox_head(self, bbox_roi_extractor, bbox_head):
+        # Copyright 2025 AdaNest.
         """Initialize box head and box roi extractor.
 
                Args:
