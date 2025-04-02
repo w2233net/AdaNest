@@ -104,3 +104,5 @@ Please see [get_started.md](docs/en/get_started.md) for the basic usage of MMDet
 
 This project is released under the [Apache 2.0 license](LICENSE).
 
+## Author
+- **Xincheng Huang** - [GitHub Profile](https://github.com/w2233net) - 📧 huangxc@stu.gxnu.edu.cn

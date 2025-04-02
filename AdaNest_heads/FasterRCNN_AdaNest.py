@@ -1,4 +1,7 @@
 ﻿# Copyright 2025 AdaNest.  All rights reserved.
+# Author: Xincheng Huang
+# Email: huangxc@stu.gxnu.edu.cn
+# Created: 2025-04-02
 
 import torch
 from mmdet.models.builder import build_head, build_roi_extractor
@@ -89,6 +92,9 @@ class BBoxHeadsimple(Shared2FCBBoxHead):
 @HEADS.register_module()
 class AdaNestRoIHead_1stage(StandardRoIHead):
     # Copyright 2025 AdaNest.  All rights reserved.
+    # Author: Xincheng Huang
+    # Email: huangxc@stu.gxnu.edu.cn
+    # Created: 2025-04-02
     def init_bbox_head(self, bbox_roi_extractor, bbox_head):
         """Initialize box head and box roi extractor.
 

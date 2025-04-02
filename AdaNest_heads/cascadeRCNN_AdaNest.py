@@ -1,25 +1,17 @@
-﻿# Copyright 2025 AdaNest. All rights reserved.
+﻿# Copyright 2025 AdaNest.  All rights reserved.
+# Author: Xincheng Huang
+# Email: huangxc@stu.gxnu.edu.cn
+# Created: 2025-04-02
 import numpy as np
 import torch
-from mmcv.runner import force_fp32
 from mmdet.core import bbox2result
-
 from mmdet.models.builder import DETECTORS, build_head, build_roi_extractor
-
 from mmdet.core import (bbox_cxcywh_to_xyxy, bbox_xyxy_to_cxcywh, multi_apply)
-
-
 from torch import nn, Tensor
-
 from mmcv.cnn.bricks.transformer import  build_positional_encoding
-
 from mmdet.core.bbox.iou_calculators import bbox_overlaps
-
 from mmdet.models.detectors.two_stage import TwoStageDetector
-from mmdet.models.builder import ROI_EXTRACTORS
-from mmdet.models.roi_heads.roi_extractors.single_level_roi_extractor import SingleRoIExtractor
 from mmdet.models.builder import HEADS
-
 from mmdet.models.roi_heads.bbox_heads.convfc_bbox_head import Shared2FCBBoxHead
 from mmdet.models.roi_heads.cascade_roi_head import CascadeRoIHead
 from mmdet.core import (bbox2roi,merge_aug_masks)
@@ -233,6 +225,9 @@ class BBoxHead2(Shared2FCBBoxHead):
 @HEADS.register_module()
 class AdaNestRoIHead_Multi_stage(CascadeRoIHead):
     # Copyright 2025 AdaNest.  All rights reserved.
+    # Author: Xincheng Huang
+    # Email: huangxc@stu.gxnu.edu.cn
+    # Created: 2025-04-02
 
     def init_bbox_head(self, bbox_roi_extractor, bbox_head):
 
