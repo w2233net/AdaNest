@@ -1,4 +1,4 @@
-﻿# Copyright 2025 AdaNest.
+﻿# Copyright 2025 AdaNest.  All rights reserved.
 
 import torch
 from mmdet.models.builder import build_head, build_roi_extractor
@@ -88,7 +88,7 @@ class BBoxHeadsimple(Shared2FCBBoxHead):
 
 @HEADS.register_module()
 class AdaNestRoIHead_1stage(StandardRoIHead):
-    # Copyright 2025 AdaNest.
+    # Copyright 2025 AdaNest.  All rights reserved.
     def init_bbox_head(self, bbox_roi_extractor, bbox_head):
         """Initialize box head and box roi extractor.
 
@@ -295,7 +295,7 @@ class AdaNestRoIHead_1stage(StandardRoIHead):
         self.query_embedding = nn.Embedding(1, self.out_emb)
 
     def _bbox_forward(self, x, rois,img_shapes):
-        # Copyright 2025 AdaNest.
+
         """Box head forward function used in both training and testing."""
         # TODO: a more flexible way to decide which feature maps to use
 
