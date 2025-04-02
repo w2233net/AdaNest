@@ -54,7 +54,8 @@ English
   <a href="https://www.youtube.com/openmmlab" style="text-decoration:none;">
     <img src="https://user-images.githubusercontent.com/25839884/218346691-ceb2116a-465a-40af-8424-9f30d2348ca9.png" width="3%" alt="" /></a>
 </div>
-## Introduction
+
+[//]: # (# Introduction)
 
 # AdaNest
 
