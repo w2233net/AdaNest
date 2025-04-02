@@ -60,6 +60,9 @@ English
 
 **AdaNest** is a project developed based on [MMDetection v2.28.2](https://github.com/open-mmlab/mmdetection/tree/v2.28.2), extending its functionalities for object detection.
 
+**AdaNest** module files  are located in the `AdaNest_heads` directory and have been copied to the `mmdet/models/roi_heads/` folder.
+
+**AdaNest** based detector config files are in the `AdaNest_configs` directory.
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is
 a part of the [OpenMMLab](https://openmmlab.com/) project.
