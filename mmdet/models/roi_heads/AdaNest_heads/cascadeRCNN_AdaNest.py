@@ -1,4 +1,4 @@
-﻿# Copyright 2025 AdaNest.  All rights reserved.
+﻿# Copyright 2025 Xincheng Huang.  All rights reserved.
 # Author: Xincheng Huang
 # Email: huangxc@stu.gxnu.edu.cn
 # Created: 2025-04-02
@@ -224,7 +224,7 @@ class BBoxHead2(Shared2FCBBoxHead):
 
 @HEADS.register_module()
 class AdaNestRoIHead_Multi_stage(CascadeRoIHead):
-    # Copyright 2025 AdaNest.  All rights reserved.
+    # Copyright 2025 Xincheng Huang.  All rights reserved.
     # Author: Xincheng Huang
     # Email: huangxc@stu.gxnu.edu.cn
     # Created: 2025-04-02
